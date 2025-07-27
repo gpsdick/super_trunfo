@@ -167,7 +167,7 @@ int main() {
     printf("\nDensidade Populacional: Carta %s",(densidade1 > densidade2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nPIB per Capita: Carta %s",(percapita1 > percapita2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nSuper Poder: Carta %s",(superpoder1 > superpoder2) ? "1 venceu (1)" : "2 venceu (0)");
-    print("\n\n");    
+    printf("\n\n");    
 
     //---fim da secao escrita pelo aluno---
 
