@@ -173,3 +173,56 @@ int main() {
 
     return 0;
 }
+
+/* Entradas e saidas no terminal:
+
+Digite uma letra de 'A' ate 'H' para o Estado 1: A
+Digite o codigo de 01 a 04 para a Carta 1: A01
+Qual eh o nome da Cidade 1? São Paulo
+Quantos habitantes tem a Cidade 1? 12325000
+Quantos quilometros quadrados tem a area da Cidade 1? 1521.11
+Qual eh o valor do Produto Interno Bruto da Cidade 1? 699.28
+Quantos pontos turisticos tem a Cidade 1? 50
+
+Digite uma letra de 'A' ate 'H' para o Estado 2: B
+Digite o codigo de 01 a 04 para a Carta 2: B02
+Qual eh o nome da Cidade 2? Rio de Janeiro
+Quantos habitantes tem a Cidade 2? 6748000
+Quantos quilometros quadrados tem a area da Cidade 2? 1200.25
+Qual eh o valor do Produto Interno Bruto da Cidade 2? 300.50
+Quantos pontos turisticos tem a Cidade 2? 30
+
+Carta 1:
+Estado: A
+Codigo: A01
+Nome da Cidade: São Paulo
+Populacao: 12325000
+Area: 1521.11 km2
+PIB: 699.28 bilhoes de reais
+Numero de Pontos Turisticos: 50
+Densidade Populacional: 8102.64 hab./km2
+PIB per Capital: 56736.71 reais
+Super Poder: 699292385280.00
+
+Carta 2:
+Estado: B
+Codigo: B02
+Nome da Cidade: Rio de Janeiro
+Populacao: 6748000
+Area: 1200.25 km2
+PIB: 300.50 bilhoes de reais
+Numero de Pontos Turisticos: 30
+Densidade Populacional: 5622.16 hab./km2
+PIB per Capital: 44531.71 reais
+Super Poder: 300506775552.00
+
+Comparacao das Cartas:
+Populacao: Carta 1 venceu (1)
+Area: Carta 1 venceu (1)
+PIB: Carta 1 venceu (1)
+Pontos Turisticos: Carta 1 venceu (1)
+Densidade Populacional: Carta 2 venceu (0)
+PIB per Capita: Carta 1 venceu (1)
+Super Poder: Carta 1 venceu (1)
+
+*/
