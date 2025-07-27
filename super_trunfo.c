@@ -119,8 +119,8 @@ int main() {
     percapita1 = (float) pib1 * 1000000000 / populacao1;
     percapita2 = (float) pib2 * 1000000000 / populacao2;
 
-    superpoder1 = (float) populacao1 + area1 + pib1 + pontos1 - densidade1 + percapita1;
-    superpoder2 = (float) populacao2 + area2 + pib2 + pontos2 - densidade2 + percapita2;
+    superpoder1 = (float) populacao1 + area1 + pib1 * 1000000000 + pontos1 - densidade1 + percapita1;
+    superpoder2 = (float) populacao2 + area2 + pib2 * 1000000000 + pontos2 - densidade2 + percapita2;
 
     //---fim da secao escrita pelo aluno---
 
@@ -142,7 +142,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontos1);
     printf("Densidade Populacional: %.2f hab./km2\n", densidade1);
     printf("PIB per Capital: %.2f reais\n", percapita1);
-    printf("Super Poder: %f\n", superpoder1);
+    printf("Super Poder: %.2f\n", superpoder1);
 
     // exibicao dos dados da Carta 2
 
@@ -156,7 +156,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontos2);
     printf("Densidade Populacional: %.2f hab./km2\n", densidade2);
     printf("PIB per Capital: %.2f reais\n", percapita2);
-    printf("Super Poder: %f\n", superpoder2);
+    printf("Super Poder: %.2f\n", superpoder2);
 
     printf("\nComparacao das Cartas:\n");
 
@@ -164,7 +164,7 @@ int main() {
     printf("\nArea: Carta %s",(area1 > area2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nPIB: Carta %s",(pib1 > pib2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nPontos Turisticos: Carta %s",(pontos1 > pontos2) ? "1 venceu (1)" : "2 venceu (0)");
-    printf("\nDensidade Populacional: Carta %s",(densidade1 > densidade2) ? "1 venceu (1)" : "2 venceu (0)");
+    printf("\nDensidade Populacional: Carta %s",(densidade1 < densidade2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nPIB per Capita: Carta %s",(percapita1 > percapita2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\nSuper Poder: Carta %s",(superpoder1 > superpoder2) ? "1 venceu (1)" : "2 venceu (0)");
     printf("\n\n");    
